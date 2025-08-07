@@ -81,11 +81,12 @@ android {
 
     namespace "com.basewebviewapp"
     defaultConfig {
-        applicationId "com.basewebviewapp"
+        applicationId "com.mezcalhacienda35"
+
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.0.1"
     }
     signingConfigs {
         debug {
