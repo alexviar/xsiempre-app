@@ -1,3 +1,3 @@
-export const webViewUrl = 'https://www.ox09.santabotella.com'
+export const webViewUrl = 'http://www.example.com'
 
-export const primaryRgb = '#2D5A4A'
+export const primaryRgb = '#000000'
