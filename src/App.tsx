@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context'
-import MainScreen from './MainScrean'
+import MainScreen from './MainScreen'
 import SplashVideo from './SplashVideo'
 
 const App = () => {
