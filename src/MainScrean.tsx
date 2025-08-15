@@ -29,7 +29,6 @@ const MainScreen = ({ onLoaded }: Props) => {
     }
     setShowLoader(true)
   }, [isLoading])
-  console.log(isLoading, showLoader)
 
   const webUrl = webViewUrl
 
