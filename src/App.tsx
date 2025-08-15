@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { SafeAreaView } from 'react-native'
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context'
 import MainScreen from './MainScrean'
 import SplashVideo from './SplashVideo'
 
@@ -21,4 +21,8 @@ const App = () => {
   )
 }
 
-export default App
+export default () => (
+  <SafeAreaProvider>
+    <App />
+  </SafeAreaProvider>
+)
