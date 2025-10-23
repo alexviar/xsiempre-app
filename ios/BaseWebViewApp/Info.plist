@@ -33,6 +33,12 @@
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
+		<key>NSCameraUsageDescription</key>
+	<string>Necesitamos usar la cámara para grabar los videos que entregaremos a tus beneficiarios.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Necesitamos usar el microfono para capturar el audio de tus mensajes en video.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Necesitamos acceder a tu biblioteca para elegir videos o fotos que quieras compartir.</string>
 	<key>UILaunchStoryboardName</key>
 	<string>BootSplash</string>
 	<key>UIRequiredDeviceCapabilities</key>
